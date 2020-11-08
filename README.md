@@ -24,6 +24,7 @@ Berikut source code yang saya buat :<br>
 
 ```python
 #latihan 1
+print("---Latihan1---")
 print ("Masukan Jumlah N : 5 ")
 import random
 jumlah = 5
@@ -34,7 +35,7 @@ for x in range (jumlah):
         print('data ke :',a,'==>', i)
 print("---SELESAI---")
 ```
-Berikut hasil run syntax diatas :<br>
+Berikut hasil run syntax latihan1 diatas :<br>
 
 ![hasil running](pict/hasillatihan1.PNG)<br>
 
@@ -42,16 +43,31 @@ Berikut hasil run syntax diatas :<br>
 # Algoritma
 **Membuat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan**<br><br>
 **Masukkan angka 0 untuk berhenti**<br>
-* Mulai*<br>
-* Mencetak "latihan 2"*<br>
-* Mencetak "menampilkan bilangan, berhenti ketika bilangan 0, menampilkan bilangan terbesar"*<br>
-* integer max = 0*<br>
-* Menggunakan fungsi perulangan while true, hingga menampilkan perulangan sampai batas tertentu.*<br>
-* Memasukan bilangan integer pada "a"*<br>
-* Menggunakan fungsi if jika max kurang dari nilai a, maka max sama dengan a*<br>
-* Mengunakan fungsi if jika nilai a adalah 0 maka fungsi break artinya perulangan berhenti jika menulis nilai 0.*<br>
-* Mencetak nilai paling terbesarv setelah break, sehingga menampilkan nilai terbesar diantara bilangan tersebut dalam perulangan.*<br>
-* Selesai*<br><br>
+* Mulai<br>
+* Mencetak "latihan 2"<br>
+* Mencetak "menampilkan bilangan, berhenti ketika bilangan 0, menampilkan bilangan terbesar"<br>
+* integer max = 0<br>
+* Menggunakan fungsi perulangan while true, hingga menampilkan perulangan sampai batas tertentu.<br>
+* Memasukan bilangan integer pada "a"<br>
+* Menggunakan fungsi if jika max kurang dari nilai a, maka max sama dengan a<br>
+* Mengunakan fungsi if jika nilai a adalah 0 maka fungsi break artinya perulangan berhenti jika menulis nilai 0.<br>
+* Mencetak nilai paling terbesarv setelah break, sehingga menampilkan nilai terbesar diantara bilangan tersebut dalam perulangan.<br>
+* Selesai<br><br>
 Berikut source code yang saya buat :<br>
 
 ```python
+#latihan 2
+print("---Latihan2---")
+max=0
+while True:
+    a = int(input('Masukan Bilangan = '))
+    if max < a:
+        max = a
+    if a==0:
+        break
+print("Bilangan Terbesarnya Adalah = ",max)
+print("---SELESAI---")
+```
+Berikut hasil run syntax latihan2 diatas :<br>
+
+![hasil running](pict/hasillatihan2.PNG)<br>

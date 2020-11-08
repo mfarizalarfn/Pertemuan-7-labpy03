@@ -1,4 +1,5 @@
 #latihan 1
+print("---Latihan1---")
 print ("Masukan Jumlah N : 5 ")
 import random
 jumlah = 5
