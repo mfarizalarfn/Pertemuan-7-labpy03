@@ -12,6 +12,11 @@ Pada halaman ini (Tugas Pertemuan-7-Module Praktikum 3) Dosen memberi tugas seba
 
 # Latihan1
 # Algoritma
-**Menampilkan n bilangan acak yang lebih kecil dari 0,5**
-**Menampilkan n bilangan acak yang lebih kecil dari 0,5**
-
+**Menampilkan n bilangan acak yang lebih kecil dari 0,5**<br>
+**Nilai n diisi pada saat runtime.**<br>
+* Memasukan/ import fungsi RANDOM terlebih dahulu<br>
+* Deklarasi integer , masukkan jumlah n :<br>
+* Memasukan deskripsi kombinasi for untuk menyelesaikannya.<br>
+* Memasukan nilai jumlah (n) : 5<br>
+* Mencetak data ke 1 sampai 5 dengan hasil nilai kurang dari 0,5.<br>
+* Selesai<br>
