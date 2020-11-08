@@ -127,3 +127,5 @@ print("Total laba yang didapat adalah",total)
 Berikut hasil run syntax program1 diatas :<br>
 
 ![hasil running](pict/hasilprogram1.PNG)<br>
+
+### Demikian penjelasan dari saya mengenai Tugas Bahasa Pemrograman Pertemuan-7 Module 3 yang diperintahkan oleh Dosen, Terima kasih...
