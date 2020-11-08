@@ -1,5 +1,4 @@
 #program module 3
-
 print("Program menghitung laba perusahaan dengan modal awal 100 juta")
 
 print("Note : ")
